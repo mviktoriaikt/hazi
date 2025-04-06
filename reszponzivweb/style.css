@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.breed {
+    margin: 20px 0;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.breed img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    /* Egységes méret, vágással */
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.breed a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.breed a:hover {
+    text-decoration: underline;
+}
